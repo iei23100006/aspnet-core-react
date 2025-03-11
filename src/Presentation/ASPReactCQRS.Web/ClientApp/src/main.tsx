@@ -11,7 +11,7 @@ import axios from "axios";
 
 const queryClient = new QueryClient();
 const loco = window.location;
-const url = `${loco.protocol}//${loco.host}${import.meta.env.BASE_URL}${
+const url = `${loco.protocol}//${loco.host}${import.meta.env.BASE_URL}/${
   sessionStorage.getItem("path") ?? ""
 }`;
 axios.defaults.baseURL = import.meta.env.BASE_URL;
