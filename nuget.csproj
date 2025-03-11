@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageOutputPath>.</PackageOutputPath>  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="src\**\*" Exclude="**\bin\**\*;**\obj\**\*" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <Version>8.0.3</Version>
+    <PackageId>AspNetCoreTemplateCQRS</PackageId>
+    <Title>ASP.NET Core Template CQRS</Title>
+    <Company>Sultan Daffa N</Company>
+    <Authors>Sultan Daffa N</Authors>
+    <Copyright>Sultan Daffa N © 2025</Copyright>
+    <Description>A ready-to-use template for ASP.NET Core 8 with React CQRS implementation.</Description>
+    <PackageTags>c#;asp.net;core;template;web;cqrs</PackageTags>
+    <PackageCopyright>Sultan Daffa N © 2024</PackageCopyright>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+</Project>

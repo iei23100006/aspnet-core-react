@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\IEI23100006\Documents\Template dotnet new\Base Template\ASPReactCQRS\Presentation\ASPReactCQRS.Web\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2025-03-11T05:18:24.1280963Z;True|2025-03-11T11:58:05.6528809+07:00;False|2025-03-11T11:37:21.3029966+07:00;True|2025-03-11T11:26:41.1361348+07:00;False|2025-03-11T11:05:32.3505823+07:00;False|2025-03-11T10:48:53.2934482+07:00;False|2025-03-11T10:44:47.3933288+07:00;True|2025-03-11T10:31:04.3539217+07:00;False|2025-03-11T10:24:42.1112261+07:00;True|2025-03-11T09:53:49.2378176+07:00;False|2025-03-11T09:48:15.6132579+07:00;False|2025-03-11T09:40:57.7705627+07:00;False|2025-03-11T09:30:25.4618626+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

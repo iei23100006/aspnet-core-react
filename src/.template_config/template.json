@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Sultan Daffa",
+  "classifications": [
+    "ASP.NET Core",
+    "Core",
+    "MVC",
+    "Template",
+    "Web",
+    "CQRS",
+    "React"
+  ],
+  "tags": {
+    "language": ["C#", "Typescript"]
+  },
+  "identity": "AspNetCore.Template CQRS",
+  "name": "ASP.NET Core Template CQRS",
+  "shortName": "aspnet-core-cqrs",
+  "sourceName": "ASPReactCQRS",
+  "symbols": {
+    "skipRestore": {
+      "type": "parameter",
+      "datatype": "bool",
+      "description": "If specified, skips the automatic restore of the project on create.",
+      "defaultValue": "false"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": ["src/.vs/**", ".template_config/**"]
+        }
+      ]
+    }
+  ]
+}

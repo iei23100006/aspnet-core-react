@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button[aria-label="Expand navigation menu"] .MuiSvgIcon-root {
+  color: white !important;
+}
+
+button[aria-label="Collapse navigation menu"] .MuiSvgIcon-root {
+  color: white !important;
+}
